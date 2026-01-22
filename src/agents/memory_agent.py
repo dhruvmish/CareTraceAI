@@ -344,9 +344,9 @@ class MemoryAgent:
         try:
             query_embedding = self.encoder.encode(query_text).tolist()
 
-            results = self.client.search(
+            results = self.client.search_points(
                 collection_name=COLLECTION_SYNTHETIC_PATIENTS,
-                query_vector=query_embedding,
+                vector=query_embedding,
                 limit=limit
             )
 
