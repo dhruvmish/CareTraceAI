@@ -1,0 +1,27 @@
+# Core Dependencies
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.2
+python-dotenv>=1.0.0
+
+# Audio Processing
+openai-whisper>=20231117
+faster-whisper>=0.10.0
+
+# Image Processing (OCR)
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# UI
+streamlit>=1.29.0
+
+# Utilities
+numpy>=1.26.0
+pandas>=2.1.0
+pydantic>=2.5.0
+
+# Logging
+colorlog>=6.8.0
+
+# Additional dependencies for Python 3.12 compatibility
+setuptools>=68.0.0
+wheel>=0.41.0
